@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>問卷</title>
+      <style>
+        body{background:#F2CCC5;}
+	table {
+	border-collapse: collapse;
+	}
+ 
+	table, th, td {
+		border: 1.5px solid grey;
+	}
+      </style>
+     </head>
+
+	
+     <body>
+	 <center>
+      <form name="form2">
+       <h2>以下為調查讀者的喜好</h2>
+      <table border="1" width=75%>
+     <tr>
+       <th><b>名字</b>
+       <th><input name="pass" type="text"></b> 
+       <th><b>性別</b>
+       <th><input name="sex" type="radio" value="male">男
+           <input name="sex" type="radio" value="male">女<p>
+     <tr>
+       <th><b>年齡</b>
+       <th><input name="pass" type="text">
+       <th><b>系所</b>
+       <th><select name="choice">
+          <optgroup label="資訊學院">
+          <option value="6">資管系
+          <option value="7">資工系
+          <option value="8">資傳系
+          <optgroup label="其他學系">
+          <option value="9">電機系
+          <option value="10">通訊系
+          <option value="11">光電系
+          <option value="12">機械系
+          <option value="13">工管系
+          <option value="14">其他(請在右方填)<input name="other" type="text" size="6">
+          </optgroup>
+          </select><p>
+        
+     <tr>
+       <td colspan="4">  <br>
+       <b>&nbsp &nbsp &nbsp 1.你最喜歡且看過的翻譯小說:</b><br>
+       &nbsp &nbsp &nbsp <input name="book" type="radio" value="a">偷書賊
+       <input name="book" type="radio" value="b">哈利波特
+       <input name="book" type="radio" value="c">波西傑克森
+       <input name="book" type="radio" value="d">暮光之城
+       <input name="book" type="radio" value="e">都沒看過<p>
+
+       <b>&nbsp &nbsp &nbsp 2.你最喜歡的且看過的中文小說</b><br>
+       &nbsp &nbsp &nbsp <input name="book1" type="radio" value="1">盜墓筆記
+       <input name="book1" type="radio" value="2">射鵰英雄傳
+       <input name="book1" type="radio" value="3">傾城之戀
+       <input name="book1" type="radio" value="4">紅樓夢
+       <input name="book1" type="radio" value="5">都沒看過<p>
+ 
+       <b>&nbsp &nbsp &nbsp 3.哪種類型的小說你最愛?</b><br>
+       &nbsp &nbsp &nbsp <input name="book1" type="radio" value="f">科幻
+       <input name="book1" type="radio" value="g">愛情
+       <input name="book1" type="radio" value="h">搞笑
+       <input name="book1" type="radio" value="i">恐怖
+       <input name="book1" type="radio" value="j">古裝
+       <input name="book1" type="radio" value="k">英雄<p>
+    
+     <tr>
+       <td colspan="4"><br>
+       &nbsp &nbsp &nbsp <u>*無論你想看什麼或對此問卷有任何建議，請在下方留言，</u><br>
+	   &nbsp &nbsp &nbsp <u>您的願望就有機會成真ㄛ!</u>
+	   <p><b>&nbsp &nbsp &nbsp 留言版:</b><br>
+	   &nbsp &nbsp &nbsp <textarea name="comment" rows="7" cols="35">
+       </textarea><p>
+       &nbsp &nbsp &nbsp <b>對本問卷的評分:</b><br>
+       &nbsp &nbsp &nbsp 不喜歡<input name="score" type="range" min="1" max="10">喜歡<p>
+       &nbsp &nbsp &nbsp <b>填卷日期:</b><input type="date"><p>
+     </table><br>
+       <input type="reset" value="清除重填">&nbsp &nbsp &nbsp &nbsp      
+       <input type="submit" value="送出願望"><br><br><br>
+       <a href="f.jpg">
+       
+       
+       </form>
+	 </center>
+     </body>
